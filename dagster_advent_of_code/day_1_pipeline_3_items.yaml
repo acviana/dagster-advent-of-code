@@ -1,0 +1,11 @@
+solids:
+  load_data:
+    inputs:
+      file_path:
+        value: "data/day_1_input.txt"
+  match_by_sum:
+    inputs:
+      set_size:
+        value: 3
+      match_sum:
+        value: 2020

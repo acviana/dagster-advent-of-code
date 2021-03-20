@@ -41,4 +41,4 @@ def summerize_result(context, combination: Tuple) -> str:
 def day_1_pipeline():
     data = load_data()
     combination = match_by_sum(data)  # , 2, 2020)
-    result_summery = summerize_result(combination)
+    summerize_result(combination)

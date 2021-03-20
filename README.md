@@ -8,4 +8,5 @@ Note, to install grpcio with Poetry 1.1.4 and Python 3.8.6 on OSX 11.2.2 you nee
 
 - 0.0.1: Project setup and working pure Python implementation of Day 1 solution. No Dagster elements
 - 0.0.2: Working non-parameterized Dagster pipeline with basic type hints
-- 0.0.2: Parameterized Dagster pipeline with YAML configuration files
+- 0.0.3: Parameterized Dagster pipeline with YAML configuration files
+- 0.0.4: Added pre-commit package and hooks

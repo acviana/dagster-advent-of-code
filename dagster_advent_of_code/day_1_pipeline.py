@@ -1,8 +1,10 @@
 from itertools import combinations
 from math import prod
-from typing import List, Tuple
+from typing import List
+from typing import Tuple
 
-from dagster import pipeline, solid  # type: ignore
+from dagster import pipeline
+from dagster import solid
 
 
 @solid

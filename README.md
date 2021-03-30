@@ -12,13 +12,13 @@ Tags:
 - 0.0.4: Added pre-commit package and hooks
 - 0.0.5: Added testing
 
-Setup:
+### Setup:
 
 This project supports [Poetry](https://python-poetry.org/) for dependency management. Run `poetry install` to install the dependencies and then `poetry shell` to enter the project's virtual environment. Dependencies are also available in the `requirements.txt`.
 
 Note, to install grpcio with Poetry 1.1.4 and Python 3.8.6 on OSX 11.2.2 you need to set the following flag `export GRPC_PYTHON_BUILD_SYSTEM_ZLIB=true` ([source](https://github.com/grpc/grpc/issues/24677#issuecomment-728721822)).
 
-Execution:
+### Execution:
 
 You can run the sample pipeline from the command line with:
 
@@ -32,6 +32,6 @@ Or use the interactive GUI by running:
 dagit dagster_advent_of_code/day_1_pipeline.py
 ```
 
-Development:
+### Development:
 
 This package enforces coding standards with the pre-commit package. Once you have installed the development dependencies, install the pre-commit hooks using `pre-commit install`.

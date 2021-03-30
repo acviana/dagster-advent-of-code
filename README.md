@@ -4,7 +4,7 @@ This project is a proof of concept to attempt to implement some of my solutions 
 
 The solutions are ported from my original implementations in this [repo](https://github.com/acviana/advent-of-code-2020/).
 
-Tags:
+### Tags:
 
 - 0.0.1: Project setup and working pure Python implementation of Day 1 solution. No Dagster elements
 - 0.0.2: Working non-parameterized Dagster pipeline with basic type hints

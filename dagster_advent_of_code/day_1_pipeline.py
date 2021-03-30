@@ -1,3 +1,4 @@
+import os
 from itertools import combinations
 from math import prod
 from typing import List
@@ -9,6 +10,7 @@ from dagster import solid
 
 @solid
 def load_data(context, file_path: str) -> List[int]:
+    file_path = os.path.join(os.path.dirname(__file__), file_path)
     context.log.info(f"Attempting to load data from {file_path}")
     with open(file_path, "r") as f:
         dataset = [int(item.strip()) for item in f.readlines()]

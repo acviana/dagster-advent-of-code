@@ -2,7 +2,7 @@ solids:
   load_data:
     inputs:
       file_path:
-        value: "data/day_1_input.txt"
+        value: "day_1_input.txt"
   match_by_sum:
     inputs:
       set_size:
